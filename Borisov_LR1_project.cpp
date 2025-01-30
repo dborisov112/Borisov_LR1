@@ -21,13 +21,19 @@ int getResultMult(double A, double B){
     return A * B;
 }
 
+int getResultDivision(double A, double B){
+    return A / B;
+}
+
 int main() {
     int choice;
     do { 
         cout << "Меню:\n";
+        cout << "1. Ввести число A\n"; 
         cout << "2. Ввести число B\n"; 
         cout << "3. Вывести результат умножения A на B\n";
         cout << "4. Вывести результат деления A на B\n";
+        cout << "Выберите пункт меню: ";
     cin >> choice;
     switch (choice) { 
         case 1: 
