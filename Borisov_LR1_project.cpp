@@ -17,6 +17,10 @@ int enterB(){
     return B;
 }
 
+int getResultMult(double A, double B){
+    return A * B;
+}
+
 int main() {
     int choice;
     do { 
