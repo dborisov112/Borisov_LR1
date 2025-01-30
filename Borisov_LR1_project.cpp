@@ -20,7 +20,6 @@ int enterB(){
 double getResultMult(double A, double B){
     return A * B;
 }
-
 double getResultDivision(double A, double B){
     return A / B;
 }
