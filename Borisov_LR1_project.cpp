@@ -6,10 +6,17 @@
 #include <cmath> 
 using namespace std;
 double A, B;
+
 int enterA(){
     cin >> A;
     return A;
 }
+
+int enterB(){
+    cin >> B;
+    return B;
+}
+
 int main() {
     int choice;
     do { 
